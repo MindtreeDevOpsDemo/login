@@ -20,21 +20,34 @@ public class ValidateLoginTest extends TestCase {
     
     public ValidateLoginTest(String testName) {
         super(testName);
+        String expResult="Hi";
+        String result="Hi";
+        
+        assertEquals(expResult, result);
     }
 
     public static Test suite() {
         TestSuite suite = new TestSuite(ValidateLoginTest.class);
         return suite;
-    }
+        
+        }
     
     @Override
     protected void setUp() throws Exception {
         super.setUp();
+        String expResult="Hi";
+        String result="Hi";
+        
+        assertEquals(expResult, result);
     }
     
     @Override
     protected void tearDown() throws Exception {
         super.tearDown();
+        String expResult="Hi";
+        String result="Hi";
+        
+        assertEquals(expResult, result);
     }
 
     /**
@@ -45,6 +58,11 @@ public class ValidateLoginTest extends TestCase {
         //HttpServletRequest request = ValidateLogin(HttpServletRequest.class);
         //HttpServletResponse response = true;
         ValidateLogin instance = new ValidateLogin();
+        
+        String expResult="Hi";
+        String result="Hi";
+        
+        assertEquals(expResult, result);
         //instance.doPost(null, null);
         //instance.doPost(request, response);
         // TODO review the generated test code and remove the default call to fail.

@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import junit.*;
 
 /**
  *
@@ -41,9 +42,10 @@ public class ValidateLoginTest extends TestCase {
      */
     public void testDoPost() throws Exception {
         System.out.println("doPost");
-        //HttpServletRequest request = true;
-        //HttpServletResponse response = null;
+        //HttpServletRequest request = ValidateLogin(HttpServletRequest.class);
+        //HttpServletResponse response = true;
         ValidateLogin instance = new ValidateLogin();
+        //instance.doPost(null, null);
         //instance.doPost(request, response);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");

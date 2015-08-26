@@ -71,7 +71,7 @@ public class ValidateLogin extends HttpServlet {
         else
         {
         	System.out.println("username or password is incorrect");
-        	response.sendRedirect("index.jsp");
+        	response.sendRedirect("Invalid.jsp");
         }
 	    
 	} catch (SQLException e) {

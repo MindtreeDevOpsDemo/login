@@ -39,8 +39,8 @@ public class LoginDbTest extends TestCase {
     public void testSomeMethod() {
         
         DataBase obj = DataBase.getObj();
-         String expResult = "false";
-        String result = "";
+        String expResult = "false";
+        String result = "true";
         try
         {
            if(obj.getDbCon().isClosed())

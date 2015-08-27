@@ -47,7 +47,7 @@ public class ValidateLogin extends HttpServlet {
         System.out.println("User Name " + username ) ;
         System.out.println("password "  + password ) ;
         
-        String user = LoginDb.users.get(username);
+        //String user = LoginDb.users.get(username);
         
         DataBase db = DataBase.getObj();
         
@@ -65,7 +65,7 @@ public class ValidateLogin extends HttpServlet {
 		
 	    if(count > 0)
         {
-        	System.out.println("user ok " + user);
+        	//System.out.println("user ok " + user);
         	response.sendRedirect("welcome.jsp");
         }
         else

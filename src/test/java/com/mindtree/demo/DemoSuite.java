@@ -18,6 +18,9 @@ public class DemoSuite extends TestCase {
     
     public DemoSuite(String testName) {
         super(testName);
+         String expResult="Hi";
+        String result="Hi";        
+        assertEquals(expResult, result);
     }
     
     public static Test suite() {
@@ -31,11 +34,17 @@ public class DemoSuite extends TestCase {
     @Override
     protected void setUp() throws Exception {
         super.setUp();
+        String expResult="Hi";
+        String result="Hi";        
+        assertEquals(expResult, result);
     }
     
     @Override
     protected void tearDown() throws Exception {
         super.tearDown();
+        String expResult="Hi";
+        String result="Hi";        
+        assertEquals(expResult, result);
     }
     
 }

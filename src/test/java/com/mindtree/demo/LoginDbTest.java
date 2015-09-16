@@ -42,12 +42,12 @@ public class LoginDbTest extends TestCase {
         
         DataBase obj = DataBase.getObj();
         String expResult = "false";
-        String result = "true";
+        String result = "false";
         try
         {
            if(obj.getDbCon().isClosed())
            {
-               result="true";
+               result="false";
            }
            else
            {

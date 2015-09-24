@@ -90,7 +90,7 @@
 	<h5 hidden="true">Oops.. Please fill out the value of</h5>
 	<div class="wrapper">
 		<div class="container">
-			<h1>Welcome Sekhar</h1>
+			<h1>Welcome Sri</h1>
 
 			<form class="form" action="ValidateLogin"  method="post" >
 				<input type="text" placeholder="Username" id="username" name="username"> <input

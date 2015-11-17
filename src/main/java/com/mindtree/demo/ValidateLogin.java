@@ -30,8 +30,8 @@ public class ValidateLogin extends HttpServlet {
 	String username= request.getParameter("username");
         String password= request.getParameter("password");
         
-        System.out.println("User Name " + username ) ;
-        System.out.println("password "  + password ) ;
+        //System.out.println("User Name " + username ) ;
+        //System.out.println("password "  + password ) ;
         
         //String user = LoginDb.users.get(username);
         

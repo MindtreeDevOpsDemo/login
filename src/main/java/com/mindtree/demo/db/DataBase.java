@@ -21,7 +21,7 @@ public class DataBase {
 			System.out.println("Init Connection");
 			Class.forName("org.apache.derby.jdbc.ClientDriver");
 			//Connection conn = null;
-			conn = DriverManager.getConnection("jdbc:derby://localhost:1527/demo","demo","demo");
+			conn = DriverManager.getConnection("jdbc:derby://localhost:1527/demo","demo","demo1");
                         Class.forName("com.mysql.jdbc.Driver");
 			//Connection conn = null;
 			//conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/logindemo","root", "admin");

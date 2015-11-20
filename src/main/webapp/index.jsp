@@ -101,7 +101,7 @@
 				<input type="text" placeholder="Username" id="username" name="username"> <input
 					type="password" placeholder="Password" id="password" name="password">
 				<button type="submit" id="login-button" >Login</button>
-			</form>
+			<form>
 		</div>
 
 		<ul class="bg-bubbles">

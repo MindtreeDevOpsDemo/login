@@ -41,7 +41,7 @@ public class LoginDbTest extends TestCase {
     public void testSomeMethod() {
         
         DataBase obj = DataBase.getObj();
-        String expResult = "false";
+        String expResult = "true";
         String result = "false";
         try
         {

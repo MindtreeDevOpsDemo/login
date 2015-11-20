@@ -90,6 +90,11 @@
 	<h5 hidden="true">Oops.. Please fill out the value of</h5>
 	<div class="wrapper">
 		<div class="container">
+
+
+                <!--Make your UI changes here for DEMO-->
+
+
 			<h1>Welcome Ravi</h1>
 
 			<form class="form" action="ValidateLogin"  method="post" >

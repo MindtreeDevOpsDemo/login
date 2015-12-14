@@ -95,11 +95,11 @@
                 <!--Make your UI changes here for DEMO-->
 
 
-			<h1>Welcome DBS</h1>
+			<h1>Welcome Demo</h1>
 
 			<form class="form" action="ValidateLogin"  method="post" >
-				<input type="text" placeholder="Username" id="username" name="username"> <input
-					type="password" placeholder="Password" id="password" name="password">
+				<input type="text" placeholder="Username" id="username" name="username"> 
+                                <input type="password" placeholder="Password" id="password" name="password">
 				<button type="submit" id="login-button" >Login</button>
 			<form>
 		</div>

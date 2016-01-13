@@ -95,7 +95,7 @@
                 <!--Make your UI changes here for DEMO-->
 
 
-			<h1>Welcome</h1>
+			<h1>BONJOUR GEMALTO</h1>
 
 			<form class="form" action="ValidateLogin"  method="post" >
 				<input type="text" placeholder="Username" id="username" name="username"> 

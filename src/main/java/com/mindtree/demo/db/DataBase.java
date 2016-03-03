@@ -28,6 +28,14 @@ public class DataBase {
                         System.out.println("connection successful");
                         //conn.close();
 			// Do something with the Connection
+                        
+                        //String userName = "demo";
+                        //String password = "WordPass@123";
+                        //String url = "jdbc:sqlserver://DEVTEST\\demo:1433;databaseName=demo";
+
+                        //Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+                        //conn = DriverManager.getConnection(url, userName, password);
+                        
 		} catch (SQLException ex) {
 			// handle any errors
                     

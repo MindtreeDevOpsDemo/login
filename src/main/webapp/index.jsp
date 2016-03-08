@@ -95,7 +95,7 @@
                 <!--Make your UI changes here for DEMO-->
 
 
-			<h1>Welcome To The Demo Vinod and LK</h1>
+			<h1>Welcome AIG</h1>
 
 			<form class="form" action="ValidateLogin"  method="post" >
 				<input type="text" placeholder="Username" id="username" name="username"> 

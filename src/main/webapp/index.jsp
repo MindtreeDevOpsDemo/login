@@ -95,7 +95,7 @@
                 <!--Make your UI changes here for DEMO-->
 
 
-			<h1>Welcome to Prachi demo</h1>
+			<h1>Welcome to Prachi Demo</h1>
 
 			<form class="form" action="ValidateLogin"  method="post" >
 				<input type="text" placeholder="Username" id="username" name="username"> 
